@@ -1,0 +1,50 @@
+body {
+    background: #f5f5f5;
+}
+
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+
+header {
+    background: #fff3cd;
+}
+
+
+.card img {
+    height: 260px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+.foto-personagem {
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+    .card img {
+        height: 220px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    h1, h2 {
+        font-size: 22px;
+    }
+
+    .foto-personagem {
+        width: 180px;
+    }
+}
